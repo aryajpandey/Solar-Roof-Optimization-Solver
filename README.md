@@ -59,9 +59,9 @@ Inside the notebook, simply run **all cells** (`Kernel → Restart & Run All`
 
 | Element | Symbol | Description |
 |---------|--------|-------------|
-| **Decision vars** | \(x_i\) | integer # of panels on roof segment *i* |
-| **Objective** | maximize \( \sum_i x_i \; P_{\text{panel}} \; \eta \; \text{sunh}_{\text{annual}} \; \text{shade}_i \) | annual kWh |
-| **Constraints** | • Area: \(x_i \cdot A_{\text{panel}} \le A_i\) <br> • Budget: \(\sum_i x_i C_{\text{panel}} \le \$350{,}000\) <br> • Structural caps \(x_i \le \text{struct}_{i}\) <br> • Site capacity: \(\sum_i x_i P_{\text{panel}} \le 500{,}000\text{ W}\) |
+| **Decision vars** | $\` \(x_i\) \`$ | integer # of panels on roof segment *i* |
+| **Objective** | $\`maximize \( \sum_i x_i \; P_{\text{panel}} \; \eta \; \text{sunh}_{\text{annual}} \; \text{shade}_i \) \`$ | annual kWh |
+| **Constraints** | • Area: $\`\(x_i \cdot A_{\text{panel}} \le A_i\) \`$ <br> • Budget: $\` \(\sum_i x_i C_{\text{panel}} \le \$350{,}000\) \`$ <br> • Structural caps $\` \(x_i \le \text{struct}_{i}\) \`$ <br> • Site capacity: $\` \(\sum_i x_i P_{\text{panel}} \le 500{,}000\text{ W}\) \`$ |
 
 Default engineering constants are set in the notebook header (17.5 ft² / 320 W per panel, 4.5 sun‑hours/day, etc.) and can be edited inline for *what‑if* studies.
 
